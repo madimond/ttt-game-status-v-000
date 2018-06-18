@@ -45,7 +45,7 @@ def won?(board)
     end
 end
 
-  # turn_count(board) > 1
+!turn_count(board) > 1
   # turn_count(board) == 5
   #
   #
