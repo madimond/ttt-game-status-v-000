@@ -53,7 +53,7 @@ end
   #
 
 
-def full? (board)
+def full?(board)
 #board.all? {|i| i == "X" || i == "O"}
 turn_count(board) == 9
 end
