@@ -59,5 +59,5 @@ turn_count(board) == 9
 end
 
 def draw?
-turn_count(board) == 9
+full?(board)
 end
