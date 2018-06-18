@@ -28,6 +28,7 @@ WIN_COMBINATIONS = [
 
 
 def won?(board)
+board.all? {|i| i == "X" || i == "O"}
     WIN_COMBINATIONS.each do |win_combination|
       win_index_1 = win_combination[0]
       win_index_2 = win_combination[1]
@@ -39,13 +40,14 @@ def won?(board)
 
       if position_1 == position_2 && position_2 == position_3 && position_taken?(board, win_index_1)
         return win_combination # return the win_combination indexes that won.
-      else
+      elsif
         false
       end
     end
+
 end
 
-!turn_count(board) > 1
+
   # turn_count(board) == 5
   #
   #
