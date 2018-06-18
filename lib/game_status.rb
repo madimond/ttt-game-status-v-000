@@ -54,8 +54,8 @@ end
 
 
 def full?(board)
-#board.all? {|i| i == "X" || i == "O"}
-turn_count(board) == 9
+board.all? {|i| i == "X" || i == "O"}
+#turn_count(board) == 9
 end
 
 def draw?
