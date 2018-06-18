@@ -42,7 +42,7 @@ def won?(board)
          win_combination # return the win_combination indexes that won.
       elsif !position_taken?(board, index)
       end
-
+    end
 end
 
   # turn_count(board) > 1
